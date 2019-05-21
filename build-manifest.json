@@ -1,0 +1,51 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/css/styles.8bc471ec.chunk.css",
+      "static/chunks/styles.38db84abb21cfc337a0f.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/css/styles.8bc471ec.chunk.css",
+      "static/chunks/styles.38db84abb21cfc337a0f.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/about-us": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/contact-us": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/hiring": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/css/styles.8bc471ec.chunk.css",
+      "static/chunks/styles.38db84abb21cfc337a0f.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ],
+    "/our-work": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.f6587dca6826fbf8da7c.js",
+      "static/runtime/main-63ba378e7749a5f791c9.js"
+    ]
+  }
+}
