@@ -19,8 +19,8 @@ function Header({ navItems }) {
         <Navbar.Brand>
           <Link href="/">
             <a>
-              <img src="/static/logo.svg" alt="Logo" />
-              <img src="/static/logo-text.svg" alt="Condor Labs" />
+              <img src={`${process.env.BACKEND_URL}/static/logo.svg`} alt="Logo" />
+              <img src={`${process.env.BACKEND_URL}/static/logo-text.svg`} alt="Condor Labs" />
             </a>
           </Link>
         </Navbar.Brand>
