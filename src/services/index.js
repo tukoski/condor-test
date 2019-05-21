@@ -1,0 +1,1 @@
+export { default as instagramService } from "./instagram";

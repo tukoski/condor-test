@@ -1,0 +1,46 @@
+@import "../../../styles/variables";
+
+#Header {
+  .page-header {
+    background: map-get($colors, primary);
+    box-shadow: none;
+    height: 90px;
+
+    .eui-navbar-bar {
+      box-shadow: none;
+      height: 90px;
+    }
+
+    .eui-navbar-toggle,
+    .eui-nav-light {
+      min-height: 90px;
+    }
+
+    &:hover span {
+      background: map-get($colors, black) !important;
+    }
+
+    .nav-menu {
+      box-shadow: none;
+      flex-direction: row-reverse;
+      a {
+        font-weight: bold;
+        &:hover,
+        &:focus {
+          color: map-get($colors, black);
+        }
+        &::after {
+          background: map-get($colors, black);
+        }
+      }
+    }
+
+    img {
+      height: 55px;
+      /* Phones */
+      @media only screen and (max-width: map-get($break-points, small)) {
+        height: 45px;
+      }
+    }
+  }
+}

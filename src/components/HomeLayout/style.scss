@@ -1,0 +1,79 @@
+@import "../../styles/variables";
+
+#HomeLayout {
+  text-align: center;
+  padding: 45px 0;
+
+  h1 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+  .avatar {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent !important;
+
+    span {
+      display: none;
+    }
+  }
+
+  .row {
+    margin-top: -110px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  /* Tablets */
+  @media only screen and (max-width: map-get($break-points, medium)) {
+    h1 {
+      font-size: 60px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+
+    .row {
+      margin-top: -70px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+  /* Phones */
+  @media only screen and (max-width: map-get($break-points, small)) {
+    .row {
+      margin-top: 0;
+    }
+
+    .avatar {
+      margin-bottom: 10px;
+      width: 250px;
+      height: 250px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+}

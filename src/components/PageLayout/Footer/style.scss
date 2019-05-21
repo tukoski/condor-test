@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+#Footer {
+  min-height: 50px;
+  padding: 15px 0;
+  font-size: 18px;
+  .container {
+    display: flex;
+    p {
+      flex: 1;
+    }
+  }
+  /* Phones */
+  @media only screen and (max-width: map-get($break-points, small)) {
+    .container {
+      display: block;
+    }
+  }
+}
