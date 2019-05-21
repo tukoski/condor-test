@@ -51,7 +51,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin ../node_modules/css-loader/index.js??ref--6-1!../node_modules/sass-loader/lib/loader.js??ref--6-2!components/PageLayout/Footer/style.scss": [
+  "mini-css-extract-plugin ../node_modules/css-loader/index.js??ref--6-1!../node_modules/sass-loader/lib/loader.js??ref--6-2!components/PageLayout/Header/style.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -64,7 +64,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin ../node_modules/css-loader/index.js??ref--6-1!../node_modules/sass-loader/lib/loader.js??ref--6-2!components/PageLayout/Header/style.scss": [
+  "mini-css-extract-plugin ../node_modules/css-loader/index.js??ref--6-1!../node_modules/sass-loader/lib/loader.js??ref--6-2!components/PageLayout/Footer/style.scss": [
     {
       "modules": {
         "byIdentifier": {},
