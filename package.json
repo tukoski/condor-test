@@ -7,7 +7,7 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src",
-    "deploy": "next build ./src && gh-pages -d build"
+    "deploy": "NODE_ENV=production next build ./src && next export ./src && touch  src/out/.nojekyll && git add src/out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix src/out origin gh-pages"
   },
   "keywords": [
     "react",
